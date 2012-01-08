@@ -13,24 +13,28 @@
 		C8A41DBC14B94B410087F962 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A41DBA14B94B410087F962 /* InfoPlist.strings */; };
 		C8A41DBE14B94B410087F962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A41DBD14B94B410087F962 /* main.m */; };
 		C8A41DC214B94B410087F962 /* CalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A41DC114B94B410087F962 /* CalcAppDelegate.m */; };
-		C8A41DC514B94B410087F962 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A41DC414B94B410087F962 /* CalcViewController.m */; };
+		C8A41DC514B94B410087F962 /* CalcViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8A41DC414B94B410087F962 /* CalcViewController.mm */; };
 		C8A41DC814B94B410087F962 /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A41DC614B94B410087F962 /* CalcViewController.xib */; };
+		C8A41DCF14B9518A0087F962 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8A41DCE14B9518A0087F962 /* Calculator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8445F1014B9D5E500AD00C0 /* DivideByZeroException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideByZeroException.h; sourceTree = "<group>"; };
 		C8A41DAD14B94B410087F962 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A41DB114B94B410087F962 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8A41DB314B94B410087F962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8A41DB514B94B410087F962 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C8A41DB914B94B410087F962 /* Calc-Info.plist */ = {isa = PBXFileReference; path = "Calc-Info.plist"; sourceTree = "<group>"; };
+		C8A41DB914B94B410087F962 /* Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calc-Info.plist"; sourceTree = "<group>"; };
 		C8A41DBB14B94B410087F962 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8A41DBD14B94B410087F962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8A41DBF14B94B410087F962 /* Calc-Prefix.pch */ = {isa = PBXFileReference; path = "Calc-Prefix.pch"; sourceTree = "<group>"; };
-		C8A41DC014B94B410087F962 /* CalcAppDelegate.h */ = {isa = PBXFileReference; path = CalcAppDelegate.h; sourceTree = "<group>"; };
+		C8A41DBF14B94B410087F962 /* Calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calc-Prefix.pch"; sourceTree = "<group>"; };
+		C8A41DC014B94B410087F962 /* CalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcAppDelegate.h; sourceTree = "<group>"; };
 		C8A41DC114B94B410087F962 /* CalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcAppDelegate.m; sourceTree = "<group>"; };
-		C8A41DC314B94B410087F962 /* CalcViewController.h */ = {isa = PBXFileReference; path = CalcViewController.h; sourceTree = "<group>"; };
-		C8A41DC414B94B410087F962 /* CalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		C8A41DC314B94B410087F962 /* CalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		C8A41DC414B94B410087F962 /* CalcViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CalcViewController.mm; sourceTree = "<group>"; };
 		C8A41DC714B94B410087F962 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalcViewController.xib; sourceTree = "<group>"; };
+		C8A41DCE14B9518A0087F962 /* Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
+		C8A41DD014B951BE0087F962 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,10 @@
 				C8A41DC014B94B410087F962 /* CalcAppDelegate.h */,
 				C8A41DC114B94B410087F962 /* CalcAppDelegate.m */,
 				C8A41DC314B94B410087F962 /* CalcViewController.h */,
-				C8A41DC414B94B410087F962 /* CalcViewController.m */,
+				C8A41DC414B94B410087F962 /* CalcViewController.mm */,
+				C8A41DCE14B9518A0087F962 /* Calculator.cpp */,
+				C8445F1014B9D5E500AD00C0 /* DivideByZeroException.h */,
+				C8A41DD014B951BE0087F962 /* Calculator.h */,
 				C8A41DC614B94B410087F962 /* CalcViewController.xib */,
 				C8A41DB814B94B410087F962 /* Supporting Files */,
 			);
@@ -162,7 +169,8 @@
 			files = (
 				C8A41DBE14B94B410087F962 /* main.m in Sources */,
 				C8A41DC214B94B410087F962 /* CalcAppDelegate.m in Sources */,
-				C8A41DC514B94B410087F962 /* CalcViewController.m in Sources */,
+				C8A41DC514B94B410087F962 /* CalcViewController.mm in Sources */,
+				C8A41DCF14B9518A0087F962 /* Calculator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +280,7 @@
 				C8A41DCD14B94B410087F962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
